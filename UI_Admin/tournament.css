@@ -1,0 +1,75 @@
+.main{
+    font-size: 48px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.ip{
+    font-size: 20px;
+    background-image: url("tc.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 300px;
+    padding: 40px;
+}
+.last{
+    font-size: 20px;
+    margin: auto;
+    margin-top: 40px;
+    height: 100px;
+}
+#butn{
+    margin: 10px;
+}
+#butn2{
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.bbb{
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(223, 188, 32);
+    color: white;
+}
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+    }
+
+.form-signin {
+max-width: 330px;
+padding: 15px;
+margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+margin-bottom: 10px;
+}
+.form-signin .checkbox {
+font-weight: 400;
+}
+.form-signin .form-control {
+position: relative;
+box-sizing: border-box;
+height: auto;
+padding: 10px;
+font-size: 16px;
+}
+.form-signin .form-control:focus {
+z-index: 2;
+}
+.form-signin input[type="email"] {
+margin-bottom: -1px;
+border-bottom-right-radius: 0;
+border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+margin-bottom: 10px;
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+}

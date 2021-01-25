@@ -1,0 +1,73 @@
+.main {
+    background-image: url("hp-cover.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-weight: bold;
+    font-variant-east-asian: proportional-width;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 74px;
+    height: 150px;
+    padding: 40px;
+}
+.str {
+    height: 100vh;
+    background-image: url("hp-body.jpg");
+    color: black;
+    text-align: center;
+    align-items: center;
+}
+.epass {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+.ip {
+    margin-left: 19px;
+}
+.btn {
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    background-color: slateblue;
+    color: white;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.btn1 {
+    align-items: center;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    background-color: rgb(42, 175, 60);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.lnk {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.tt {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: x-large;
+    color: black;
+}
+.tt2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: x-large;
+    font-weight: bolder;
+}

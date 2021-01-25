@@ -1,0 +1,55 @@
+.main {
+    font-size: 48px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: green;
+    padding: 20px;
+    color: white;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+
+.sub {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+    padding: 20px;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+}
+.ip {
+    font-size: 26px;
+    background-image: url("nt-ip.jpg");
+    padding: 20px;
+    padding-left: 100px;
+    color: yellow;
+    height: 100vh;
+}
+ul {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+#btn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 22px;
+    margin: auto;
+    margin-left: 220px;
+    margin-bottom: 20px;
+    display: inline-flex;
+}
+#btn2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 22px;
+    margin: auto;
+    margin-left: 630px;
+    margin-bottom: 20px;
+    display: inline-flex;
+}

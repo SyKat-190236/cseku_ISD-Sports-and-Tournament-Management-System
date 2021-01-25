@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="tournament.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<head>
+    <link rel="shortcut icon" href="all.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tournament Registration</title>
+</head>
+<body>
+   <div class="main">
+       <b>New Tournament</b>
+   </div>
+   <div class="ip">
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationCustom01">Tournament Code</label>
+          <input type="text" class="form-control" id="validationCustom01" placeholder="Tournamnet Code" value="01" required>
+        </div>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+              <label for="validationCustom01">Tournament Type</label>
+              <input type="text" class="form-control" id="validationCustom01" placeholder="Tournamnet Type" value="Indoor/ Outdoor" required>
+            </div>
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validationCustom01">Tournament Fee</label>
+                <input type="text" class="form-control" id="validationCustom01" placeholder="Tournamnet Fee" value="100 USD$" required>
+            </div>
+   </div>
+   <br>
+   <br>
+   <div class="last">
+     <button id="butn2" class="btn btn-success" onclick="window.alert('Successfully Created!')">Create</button>
+   </div>
+</body>
+</html>

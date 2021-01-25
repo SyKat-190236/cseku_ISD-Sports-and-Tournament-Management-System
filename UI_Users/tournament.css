@@ -1,0 +1,36 @@
+.main{
+    font-size: 48px;
+    background-color: rgb(11, 145, 223);
+    text-align: center;
+}
+.ip{
+    font-size: 20px;
+    background-color: rgb(62, 231, 28);
+    text-align: center;
+    height: 350px;
+    padding: 40px;
+}
+.last{
+    font-size: 20px;
+    margin: auto;
+    background-color: rgb(185, 32, 165);
+    height: 100px;
+    display: flex;
+}
+#butn{
+    margin: 10px;
+}
+#butn2{
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(243, 100, 34);
+    color: white;
+}
+.bbb{
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(202, 43, 162);
+    color: white;
+}

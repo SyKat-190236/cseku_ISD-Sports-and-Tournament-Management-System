@@ -1,0 +1,21 @@
+#body{
+    background-image: url("img/usr-bdy.jpg");
+    background-size: cover;
+}
+#main{
+    color: white;
+    background-color: rgb(18, 15, 197);
+    font-size: 58px;
+    height: 100px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#lo {
+    float: right;
+    margin: 40px;
+}
+.para{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}

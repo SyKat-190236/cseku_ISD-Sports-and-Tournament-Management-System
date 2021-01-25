@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        .cover
+        {
+            font-size: 52px;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            background-color:blue;
+            color: white;
+            padding: 30px;
+        }
+        .main
+        {
+            margin: auto;
+            display: grid;
+            justify-content: center;
+            font-size: 24px;
+            background-color: orange;
+            padding-bottom: 20px;
+        }
+        .list
+        {
+            background-color: yellow;
+            padding: 40px;
+            border-radius: 10px;
+        }
+        #tbl
+        {
+            margin: 20px;
+            background-color: silver;
+            border-color: black;
+            border-style: solid;
+        }
+        #b1
+        {
+            background-color: blue;
+            color: white;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+        #b2
+        {
+            background-color: red;
+            color: white;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+        #b3
+        {
+            margin: auto;
+            margin-top: 20px;
+            background-color: green;
+            color: white;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+        body{
+            margin-top:20px;
+            background:#FAFAFA;    
+        }
+        /*==================================================
+        Nearby People CSS
+        ==================================================*/
+
+        .people-nearby .google-maps{
+        background: #f8f8f8;
+        border-radius: 4px;
+        border: 1px solid #f1f2f2;
+        padding: 20px;
+        margin-bottom: 20px;
+        }
+
+        .people-nearby .google-maps .map{
+        height: 300px;
+        width: 100%;
+        border: none;
+        }
+
+        .people-nearby .nearby-user{
+        padding: 20px 0;
+        border-top: 1px solid #f1f2f2;
+        border-bottom: 1px solid #f1f2f2;
+        margin-bottom: 20px;
+        }
+
+        img.profile-photo-lg{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        }
+        .search-form .form-group {
+        float: right !important;
+        transition: all 0.35s, border-radius 0s;
+        width: 32px;
+        height: 32px;
+        background-color: #fff;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+        border-radius: 25px;
+        border: 1px solid #ccc;
+        }
+        .search-form .form-group input.form-control {
+        padding-right: 20px;
+        border: 0 none;
+        background: transparent;
+        box-shadow: none;
+        display:block;
+        }
+        .search-form .form-group input.form-control::-webkit-input-placeholder {
+        display: none;
+        }
+        .search-form .form-group input.form-control:-moz-placeholder {
+        /* Firefox 18- */
+        display: none;
+        }
+        .search-form .form-group input.form-control::-moz-placeholder {
+        /* Firefox 19+ */
+        display: none;
+        }
+        .search-form .form-group input.form-control:-ms-input-placeholder {
+        display: none;
+        }
+        .search-form .form-group:hover,
+        .search-form .form-group.hover {
+        width: 100%;
+        border-radius: 4px 25px 25px 4px;
+        }
+        .search-form .form-group span.form-control-feedback {
+        position: absolute;
+        top: -1px;
+        right: -2px;
+        z-index: 2;
+        display: block;
+        width: 34px;
+        height: 34px;
+        line-height: 34px;
+        text-align: center;
+        color: #3596e0;
+        left: initial;
+        font-size: 14px;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/user.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Users</title>
+</head>
+<body>
+    <div class="cover">
+        <b>Users List</b>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-3">
+                <form action="" class="search-form">
+                    <div class="form-group has-feedback">
+                        <label for="search" class="sr-only">Search</label>
+                        <input type="text" class="form-control" name="search" id="search" placeholder="search">
+                          <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="people-nearby">
+                  
+                  <div class="nearby-user">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="user" class="profile-photo-lg">
+                      </div>
+                      <div class="col-md-7 col-sm-7">
+                        <h5><a href="#" class="profile-link">Sophia Page</a></h5>
+                        <p>Football Lover</p>
+                        <p class="text-muted">Joined 20 Tournament</p>
+                      </div>
+                      <div class="col-md-3 col-sm-3">
+                        <button class="btn btn-primary pull-right">Add User</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nearby-user">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="user" class="profile-photo-lg">
+                      </div>
+                      <div class="col-md-7 col-sm-7">
+                        <h5><a href="#" class="profile-link">Emma Johnson</a></h5>
+                        <p>Cricket Lover</p>
+                        <p class="text-muted">Amature</p>
+                      </div>
+                      <div class="col-md-3 col-sm-3">
+                        <button class="btn btn-primary pull-right">Add User</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nearby-user">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img src="https://bootdey.com/img/Content/avatar/avatar5.png" alt="user" class="profile-photo-lg">
+                      </div>
+                      <div class="col-md-7 col-sm-7">
+                        <h5><a href="#" class="profile-link">Nora Wilson</a></h5>
+                        <p>Football Lover</p>
+                        <p class="text-muted">Joined 13 Tournament</p>
+                      </div>
+                      <div class="col-md-3 col-sm-3">
+                        <button class="btn btn-primary pull-right">Add User</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nearby-user">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="user" class="profile-photo-lg">
+                      </div>
+                      <div class="col-md-7 col-sm-7">
+                        <h5><a href="#" class="profile-link">Diana Amber</a></h5>
+                        <p>Football Lover</p>
+                        <p class="text-muted">Joined 3 Tournament</p>
+                      </div>
+                      <div class="col-md-3 col-sm-3">
+                        <button class="btn btn-primary pull-right">Add User</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nearby-user">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="user" class="profile-photo-lg">
+                      </div>
+                      <div class="col-md-7 col-sm-7">
+                        <h5><a href="#" class="profile-link">Addison Thomas</a></h5>
+                        <p>Football Lover</p>
+                        <p class="text-muted">Amature</p>
+                      </div>
+                      <div class="col-md-3 col-sm-3">
+                        <button class="btn btn-primary pull-right">Add User</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nearby-user">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="user" class="profile-photo-lg">
+                      </div>
+                      <div class="col-md-7 col-sm-7">
+                        <h5><a href="#" class="profile-link">Jonathon Thompson</a></h5>
+                        <p>Cricket Lover</p>
+                        <p class="text-muted">Joined 3 Tournament</p>
+                      </div>
+                      <div class="col-md-3 col-sm-3">
+                        <button class="btn btn-primary pull-right">Add User</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nearby-user">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="user" class="profile-photo-lg">
+                      </div>
+                      <div class="col-md-7 col-sm-7">
+                        <h5><a href="#" class="profile-link">Olivia Steward</a></h5>
+                        <p>Cricket Lover</p>
+                        <p class="text-muted">Joined 12 Tournament</p>
+                      </div>
+                      <div class="col-md-3 col-sm-3">
+                        <button class="btn btn-primary pull-right">Add User</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nearby-user">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="user" class="profile-photo-lg">
+                      </div>
+                      <div class="col-md-7 col-sm-7">
+                        <h5><a href="#" class="profile-link">Elena Foster</a></h5>
+                        <p>Vollyball Lover</p>
+                        <p class="text-muted">Joined a few month ago</p>
+                      </div>
+                      <div class="col-md-3 col-sm-3">
+                        <button class="btn btn-primary pull-right">Add User</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nearby-user">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="user" class="profile-photo-lg">
+                      </div>
+                      <div class="col-md-7 col-sm-7">
+                        <h5><a href="#" class="profile-link">Brian Walton</a></h5>
+                        <p>Football Lover</p>
+                        <p class="text-muted">Joined 3 Tournament</p>
+                      </div>
+                      <div class="col-md-3 col-sm-3">
+                        <button class="btn btn-primary pull-right">Add User</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="nearby-user">
+                    <div class="row">
+                      <div class="col-md-2 col-sm-2">
+                        <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="user" class="profile-photo-lg">
+                      </div>
+                      <div class="col-md-7 col-sm-7">
+                        <h5><a href="#" class="profile-link">Cris Haris</a></h5>
+                        <p>Chess Lover</p>
+                        <p class="text-muted">Amature</p>
+                      </div>
+                      <div class="col-md-3 col-sm-3">
+                        <button class="btn btn-primary pull-right">Add User</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

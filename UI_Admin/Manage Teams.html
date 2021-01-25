@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <style>
+        .cover
+        {
+            font-size: 52px;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(16, 20, 240);
+            color: white;
+            padding: 30px;
+        }
+        .main
+        {
+            margin: auto;
+            display: grid;
+            justify-content: center;
+            font-size: 24px;
+            background-color: rgb(184, 19, 19);
+            padding-bottom: 20px;
+        }
+        .list
+        {
+            background-color: rgb(121, 207, 8);
+            padding: 40px;
+        }
+        #tbl
+        {
+            margin: 20px;
+            background-color: rgb(253, 253, 253);
+            border-color: black;
+            border-style: solid;
+        }
+        #b1
+        {
+            background-color: rgb(185, 41, 230);
+            color: white;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+        #b2
+        {
+            background-color: red;
+            color: white;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+        #b3
+        {
+            margin: auto;
+            margin-top: 20px;
+            background-color: blue;
+            color: white;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+        .list-content{
+        min-height:300px;
+        }
+        .list-content .list-group .title{
+        background:#5bc0de;
+        border:2px solid #DDDDDD;
+        font-weight:bold;
+        color:#FFFFFF;
+        }
+        .list-group-item img {
+            height:80px; 
+            width:80px;
+        }
+
+        .jumbotron .btn {
+            padding: 5px 5px !important;
+            font-size: 12px !important;
+        }
+        .prj-name {
+            color:#5bc0de;    
+        }
+        .break{
+            width:100%;
+            margin:20px;
+        }
+        .name {
+            color:#5bc0de;    
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="all.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Team Request</title>
+</head>
+<body>
+    <div class="cover">
+        <b>Team Requests</b>
+    </div>
+    <div class="container bootstrap snippets bootdey">
+
+        <div class="header">
+          <h3 class="text-muted prj-name">
+              <span class="fa fa-users fa-2x principal-title"></span>
+              Team Request
+          </h3>
+        </div>
+      
+      
+        <div class="jumbotron list-content">
+          <ul class="list-group">
+            <li href="#" class="list-group-item title">
+              Your team request
+            </li>
+            <li href="#" class="list-group-item text-left">
+              <img class="img-thumbnail" src="flag-team.jpg">
+              <label class="name">
+                  Argentina Football Team<br>
+              </label>
+              <label class="pull-right">
+                  <a  class="btn btn-success btn-xs glyphicon glyphicon-ok" href="#" title="View"></a>
+                  <a  class="btn btn-danger  btn-xs glyphicon glyphicon-trash" href="#" title="Delete"></a>
+                  <a  class="btn btn-info  btn-xs glyphicon glyphicon glyphicon-comment" href="#" title="Send message"></a>
+              </label>
+              <div class="break"></div>
+            </li>
+            <li href="#" class="list-group-item text-left">
+                <img class="img-thumbnail"  src="flag-team.jpg">
+              <label class="name">
+                Bangladesh Vollyball Team
+              </label>
+              <label class="pull-right">
+                  <a  class="btn btn-success btn-xs glyphicon glyphicon-ok" href="#" title="View"></a>
+                  <a  class="btn btn-danger  btn-xs glyphicon glyphicon-trash" href="#" title="Delete"></a>
+                  <a  class="btn btn-info  btn-xs glyphicon glyphicon glyphicon-comment" href="#" title="Send message"></a>
+              </label>
+              <div class="break"></div>
+            </li>
+            <li href="#" class="list-group-item text-left">
+                <img class="img-thumbnail"  src="flag-team.jpg">
+                <label class="name">
+                  Khulna Abahoni Team
+                </label>
+              <label class="pull-right">
+                  <a  class="btn btn-success btn-xs glyphicon glyphicon-ok" href="#" title="View"></a>
+                  <a  class="btn btn-danger  btn-xs glyphicon glyphicon-trash" href="#" title="Delete"></a>
+                  <a  class="btn btn-info  btn-xs glyphicon glyphicon glyphicon-comment" href="#" title="Send message"></a>
+              </label>
+              <div class="break"></div>
+            </li>
+            <li href="#" class="list-group-item text-left">
+              <a class="btn btn-block btn-primary">
+                  <i class="glyphicon glyphicon-refresh"></i>
+                  Load more...
+              </a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </div> 
+</body>
+</html>
